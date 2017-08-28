@@ -5,7 +5,7 @@ class Hamming
 
     def compute(str1, str2)
       if str1.length != str2.length
-        raise ArgumentError.new("Different size strands")
+        raise ArgumentError.new("Unequal Strand Size")
 
       else
         difference = 0
