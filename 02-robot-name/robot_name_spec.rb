@@ -34,7 +34,7 @@ describe "Robot Name" do
   end
 
   it "Check reset name" do
-  
+
     robot = Robot.new
     name = robot.name
 

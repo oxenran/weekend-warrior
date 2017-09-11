@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 gem 'minitest', '>= 5.0.0'
 require 'minitest/pride'
 require 'minitest/autorun'
