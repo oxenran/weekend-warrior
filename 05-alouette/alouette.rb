@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #write class Alouette
 class Alouette
   class << self
@@ -56,5 +57,15 @@ class Alouette
       whole_darn_song << "#{refrain}"
     end
 
+=======
+class Alouette
+  def self.lines_for_verse(verse_num)
+  end
+
+  def self.verse(verse_num)
+  end
+
+  def self.sing
+>>>>>>> ada-c8/master
   end
 end
